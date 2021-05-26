@@ -11,8 +11,7 @@
 Como executar:
 
 1-Entre no link :
-	 https://github.com/leticia-rodrigues2/Desafio.git
-	
+	https://leticia-rodrigues2.github.io/Desafio/
 
 ## detalhamento das decisões
 Foi usado jquery pois , tinha um breve conhecimento pela faculdade .A biblioteca md5 foi usada para criar o hash usando a senha pública e privada .

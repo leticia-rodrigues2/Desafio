@@ -8,6 +8,7 @@ function generateHash() {
 async function getHerois() {
     let nameStartsWith =  $('#searchInput').val();
     try {
+        // Parametros de consulta
         let data = {
             apikey: PUBLIC_KEY,
             ts: 1,
@@ -15,6 +16,7 @@ async function getHerois() {
             offset: 0,
             orderBy: '-modified',
         };
+        // filtrar pesquisa pelo nome
         if (nameStartsWith)
             data.nameStartsWith = nameStartsWith;
         return await $.ajax({

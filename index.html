@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <title>PERSONAGENS MARVEL</title>
   </head>
+  <!-- onload: quando o elemento carregar, irá executar o método pesquisar()-->
   <body onload="pesquisar()">
     <h1>PERSONAGENS MARVEL</h1>
 
@@ -47,7 +48,7 @@
   <div id="pesquisa">
     <section class="container mt-4 mb-4">
       <div class="mb-4">
-       
+       <!-- onchange: Quando o valor o campo mudar, o método pesquisar() será chamado -->
         <input onchange="pesquisar()" id="searchInput" class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
       
       </div>
